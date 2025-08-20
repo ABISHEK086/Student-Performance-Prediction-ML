@@ -74,5 +74,5 @@ Author
 
 Abishek Antony
 Frontend Developer | AI & ML Enthusiast
-LinkedIn: [your-link]
-Portfolio: [your-portfolio-link]
+LinkedIn:https://www.linkedin.com/in/abishek-antony-a86673ap/
+
