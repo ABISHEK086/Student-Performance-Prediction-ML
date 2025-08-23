@@ -1,10 +1,10 @@
-# Student Performance Prediction - ML
+Student Performance Prediction - ML
 
 This project applies Machine Learning classifiers to predict student performance based on various academic and demographic factors.
 
 ---
 
-## Features
+Features
 - Data visualization with Seaborn & Matplotlib
 - Multiple classification models:
   - Decision Tree
@@ -17,7 +17,7 @@ This project applies Machine Learning classifiers to predict student performance
 
 ---
 
-## Tech Stack
+Tech Stack
 - Python 3
 - Pandas, Numpy
 - Matplotlib, Seaborn
@@ -25,11 +25,11 @@ This project applies Machine Learning classifiers to predict student performance
 
 ---
 
-## How to Run
+How to Run
 ```bash
 
-# 1. Install dependencies
+1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Run the project
+2. Run the project
 python Project.py
