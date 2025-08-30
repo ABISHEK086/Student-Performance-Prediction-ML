@@ -82,10 +82,9 @@ countries = [
     "Singapore", "Malaysia", "Italy", "Spain", "Russia", "Mexico", "Other"
 ]
 
-# Grades (Dropdown from G-01 to G-12)
+
 grades = [f"G-{str(i).zfill(2)}" for i in range(1, 13)]
 
-# Subjects (+ 'Other' so users can type)
 subjects = ["Math", "English", "Science", "History", "Geography",
             "Computer", "Biology", "Chemistry", "Physics", "Art", "Other"]
 
@@ -113,6 +112,5 @@ visited = st.number_input("Visited Resources", min_value=0)
 discussion = st.number_input("Discussion Participation", min_value=0)
 absence = st.number_input("Absence Days", min_value=0)
 
-# Button for prediction (left as-is)
 if st.button("Predict"):
     st.success("Prediction feature will be implemented here with the trained model.")
