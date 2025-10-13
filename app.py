@@ -73,7 +73,7 @@ sns.countplot(data=df, x=col)
 st.pyplot(fig)
 
 
-st.subheader("Predict Student Performance")
+st.subheader("Predict Student Performance") 
 
 
 countries = [
