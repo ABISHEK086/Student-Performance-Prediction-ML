@@ -44,7 +44,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-models = {
+models = { 
     "Decision Tree": DecisionTreeClassifier(),
     "Random Forest": RandomForestClassifier(),
     "Logistic Regression": LogisticRegression(max_iter=1000),
