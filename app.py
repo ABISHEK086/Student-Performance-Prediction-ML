@@ -57,7 +57,7 @@ st.subheader("Model Accuracy")
 results = {}
 for name, model in models.items():
     try:
-        model.fit(X_train, y_train)
+        model.fit(X_train, y_train) 
         preds = model.predict(X_test)
         acc = accuracy_score(y_test, preds)
         results[name] = round(acc * 100, 2)
