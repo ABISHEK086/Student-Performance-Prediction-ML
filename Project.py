@@ -25,7 +25,7 @@ while(ch != 10):
         plt.show()
     elif (ch == 2):
         print("Loading Graph....\n") 
-        t.sleep(1)
+        t.sleep(1) 
         print("\tMarks Class Semester-wise Graph")
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='Semester', hue='Class', data=data, hue_order=['L', 'M', 'H'], axes=axesarr)
