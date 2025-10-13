@@ -43,7 +43,7 @@ while(ch != 10):
         print("\tMarks Class Nationality-wise Graph")
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='NationalITy', hue='Class', data=data, hue_order=['L', 'M', 'H'], axes=axesarr)
-        plt.show()
+        plt.show() 
     elif (ch == 5):
         print("Loading Graph: \n")
         t.sleep(1) 
