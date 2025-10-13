@@ -103,7 +103,7 @@ section = st.selectbox("Section", ["A", "B", "C"])
 
 topic = st.selectbox("Topic", subjects)
 if topic == "Other":
-    topic = st.text_input("Enter Subject:")
+    topic = st.text_input("Enter Subject:") 
 
 relation = st.selectbox("Parent responsible", ["Father", "Mother"])
 raisedhands = st.number_input("Raised Hands", min_value=0)
