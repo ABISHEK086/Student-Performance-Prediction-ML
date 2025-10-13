@@ -102,7 +102,7 @@ countD = 0
 countP = 0
 countL = 0
 countR = 0
-countN = 0
+countN = 0 
 gradeID_dict = {"G-01" : 1,
                 "G-02" : 2,
                 "G-03" : 3,
