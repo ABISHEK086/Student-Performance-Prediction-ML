@@ -37,7 +37,7 @@ while(ch != 10):
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='gender', hue='Class', data=data, order=['M', 'F'], hue_order=['L', 'M', 'H'], axes=axesarr)
         plt.show()
-    elif (ch == 4): 
+    elif (ch == 4):  
         print("Loading Graph..\n")
         t.sleep(1)
         print("\tMarks Class Nationality-wise Graph")
