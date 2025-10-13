@@ -53,7 +53,7 @@ while(ch != 10):
         plt.show()
     elif (ch ==6):
         print("Loading Graph..\n")
-        t.sleep(1) 
+        t.sleep(1)  
         print("\tMarks Class Section-wise Graph")
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='SectionID', hue='Class', data=data, hue_order = ['L', 'M', 'H'], axes=axesarr)
