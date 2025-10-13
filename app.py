@@ -83,7 +83,7 @@ countries = [
 ]
 
 
-grades = [f"G-{str(i).zfill(2)}" for i in range(1, 13)]
+grades = [f"G-{str(i).zfill(2)}" for i in range(1, 13)] 
 
 subjects = ["Math", "English", "Science", "History", "Geography",
             "Computer", "Biology", "Chemistry", "Physics", "Art", "Other"]
