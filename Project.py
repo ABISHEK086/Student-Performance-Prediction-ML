@@ -46,7 +46,7 @@ while(ch != 10):
         plt.show()
     elif (ch == 5):
         print("Loading Graph: \n")
-        t.sleep(1)
+        t.sleep(1) 
         print("\tMarks Class Grade-wise Graph")
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='GradeID', hue='Class', data=data, order=['G-02', 'G-04', 'G-05', 'G-06', 'G-07', 'G-08', 'G-09', 'G-10', 'G-11', 'G-12'], hue_order = ['L', 'M', 'H'], axes=axesarr)
