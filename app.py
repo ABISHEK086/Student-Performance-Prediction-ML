@@ -32,7 +32,7 @@ for col in df_encoded.columns:
         df_encoded[col] = le.fit_transform(df_encoded[col].astype(str))
         label_encoders[col] = le
 
-target_col = st.selectbox("Select target column (label):", df.columns)
+target_col = st.selectbox("Select target column (label):", df.columns) 
 
 X = df_encoded.drop(columns=[target_col])
 y = df_encoded[target_col]
