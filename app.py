@@ -53,7 +53,7 @@ models = {
 }
 
 
-st.subheader("Model Accuracy")
+st.subheader("Model Accuracy") 
 results = {}
 for name, model in models.items():
     try:
