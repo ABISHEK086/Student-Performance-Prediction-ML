@@ -62,7 +62,7 @@ for name, model in models.items():
         acc = accuracy_score(y_test, preds)
         results[name] = round(acc * 100, 2)
     except Exception as e:
-        results[name] = f"Error: {e}"
+        results[name] = f"Error: {e}" 
 
 st.write(results)
 
