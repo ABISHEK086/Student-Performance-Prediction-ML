@@ -66,7 +66,7 @@ for name, model in models.items():
 
 st.write(results)
 
-st.subheader("Visualization")
+st.subheader("Visualization") 
 col = st.selectbox("Select column to visualize:", df.columns)
 fig, ax = plt.subplots()
 sns.countplot(data=df, x=col)
