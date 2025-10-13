@@ -16,7 +16,7 @@ st.write("Upload your dataset or enter details to predict student performance.")
 
 
 @st.cache_data
-def load_data():
+def load_data(): 
     return pd.read_csv("AI-Data.csv") 
 
 df = load_data()
