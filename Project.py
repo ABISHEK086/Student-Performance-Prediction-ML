@@ -5,7 +5,7 @@ import time as t
 import sklearn.utils as u                                          
 import sklearn.preprocessing as pp                  
 import sklearn.tree as tr        
-import sklearn.ensemble as es     
+import sklearn.ensemble as es      
 import sklearn.metrics as m     
 import sklearn.linear_model as lm       
 import sklearn.neural_network as nn       
