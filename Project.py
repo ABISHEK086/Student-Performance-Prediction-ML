@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sb                                         
 import matplotlib.pyplot as plt                             
 import time as t                               
-import sklearn.utils as u                                         
+import sklearn.utils as u                                          
 import sklearn.preprocessing as pp                  
 import sklearn.tree as tr        
 import sklearn.ensemble as es     
