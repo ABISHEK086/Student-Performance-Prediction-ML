@@ -1,5 +1,5 @@
 import pandas as pd                       
-import seaborn as sb                                          
+import seaborn as sb                                           
 import matplotlib.pyplot as plt                             
 import time as t                              
 import sklearn.utils as u                                                            
@@ -8,7 +8,7 @@ import sklearn.tree as tr
 import sklearn.ensemble as es          
 import sklearn.metrics as m            
 import sklearn.linear_model as lm       
-import sklearn.neural_network as nn       
+import sklearn.neural_network as nn        
 import numpy as np
 import warnings as w      
 w.filterwarnings('ignore')    
