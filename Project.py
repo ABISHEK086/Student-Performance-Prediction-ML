@@ -6,7 +6,7 @@ import sklearn.utils as u
 import sklearn.preprocessing as pp                             
 import sklearn.tree as tr                      
 import sklearn.ensemble as es          
-import sklearn.metrics as m            
+import sklearn.metrics as m             
 import sklearn.linear_model as lm       
 import sklearn.neural_network as nn          
 import numpy as np 
@@ -95,7 +95,6 @@ data = data.drop("Semester", axis=1)
 data = data.drop("Relation", axis=1)
 data = data.drop("ParentschoolSatisfaction", axis=1)
 data = data.drop("ParentAnsweringSurvey", axis=1)
-#data = data.drop("VisITedResources", axis=1)
 data = data.drop("AnnouncementsView", axis=1)
 u.shuffle(data)
 countD = 0
