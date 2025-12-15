@@ -82,8 +82,7 @@ while(ch != 10):
 if(ch == 10):
     print("Exiting..\n")
     t.sleep(1)
-#cor = data.corr()
-#print(cor)
+    
 data = data.drop("gender", axis=1)
 data = data.drop("StageID", axis=1)
 data = data.drop("GradeID", axis=1)
