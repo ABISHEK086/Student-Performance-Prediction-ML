@@ -146,7 +146,6 @@ for a,b in zip(lbls_Test, lbls_predR):
     if(a==b):
         countR += 1
 print("\nAccuracy Measures for Random Forest Classifier: \n")
-#print("\nConfusion Matrix: \n", m.confusion_matrix(lbls_Test, lbls_predR))
 print("\n", m.classification_report(lbls_Test,lbls_predR))
 accR = countR/len(lbls_Test)
 print("\nAccuracy using Random Forest: ", str(round(accR, 3)))
