@@ -10,7 +10,7 @@ import sklearn.metrics as m
 import sklearn.linear_model as lm          
 import sklearn.neural_network as nn           
 import numpy as np  
-import warnings as w       
+import warnings as w        
 w.filterwarnings('ignore')    
 data = pd.read_csv("AI-Data.csv")    
 ch = 0
