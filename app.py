@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score   
 from sklearn.tree import DecisionTreeClassifier     
 from sklearn.ensemble import RandomForestClassifier             
-from sklearn.linear_model import LogisticRegression, Perceptron     
+from sklearn.linear_model import LogisticRegression, Perceptron      
 from sklearn.neural_network import MLPClassifier  
 from sklearn.preprocessing import LabelEncoder   
   
