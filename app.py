@@ -11,7 +11,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import LabelEncoder   
   
   
-st.title("Student Performance Prediction - ML")
+st.title("Student Performance Prediction - ML") 
 st.write("Upload your dataset or enter details to predict student performance.")
  
 @st.cache_data
