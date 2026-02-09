@@ -13,7 +13,7 @@ import numpy as np
 import warnings as w         
 w.filterwarnings('ignore')     
 data = pd.read_csv("AI-Data.csv")     
-ch = 0 
+ch = 0  
 while(ch != 10):
     print("1.Marks Class Count Graph\t2.Marks Class Semester-wise Graph\n3.Marks Class Gender-wise Graph\t4.Marks Class Nationality-wise Graph\n5.Marks Class Grade-wise Graph\t6.Marks Class Section-wise Graph\n7.Marks Class Topic-wise Graph\t8.Marks Class Stage-wise Graph\n9.Marks Class Absent Days-wise\t10.No Graph\n")
     ch = int(input("Enter Choice: "))
